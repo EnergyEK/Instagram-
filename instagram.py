@@ -159,7 +159,7 @@ def args():
     # ----------- #
 
     arguments = args.parse_args()
-    username = arguments.username
+    username = arguments.energy_ek
     passlist = arguments.passlist
     proxylist = arguments.proxylist
     prune = arguments.prune
@@ -231,7 +231,7 @@ def display_database_stats():
 def main():
     arguments = args()
     mode = arguments.mode
-    username = arguments.username
+    username = arguments.energy_ek
     passlist = arguments.passlist
     proxylist = arguments.proxylist
     prune = arguments.prune
